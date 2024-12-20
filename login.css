@@ -1,0 +1,100 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Logo styles (positioned at top left) */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.logo h1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+/* Main auth container */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eaeaea;
+}
+
+/* Auth box styles */
+.auth-box {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+/* Form section styling */
+.auth-form {
+    display: block;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Center the input groups */
+.input-group {
+    margin-bottom: 15px;
+    text-align: center; /* Center align label and input */
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center; /* Center the text in inputs */
+}
+
+/* Button styles */
+.auth-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #f8c146;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.auth-btn:hover {
+    background-color: #e1a13a;
+}
+
+/* Paragraph and link styling */
+p {
+    text-align: center;
+}
+
+a {
+    color: #f8c146;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
